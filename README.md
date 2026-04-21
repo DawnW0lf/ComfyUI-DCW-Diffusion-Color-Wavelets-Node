@@ -120,10 +120,11 @@ Contributions are welcome! Please feel free to:
 If you use this in research, please cite the original DCW paper:
 
 ```bibtex
-@article{dcw2023,
-  title={Dynamic Consistency Weighting for Accelerated Diffusion Models},
-  author={AMAP-ML and NVIDIA},
-  year={2023}
+@article{yu2026eluci,
+  title={Elucidating the SNR-t Bias of Diffusion Probabilistic Models},
+  author={Meng Yu and Lei Sun and Jianhao Zeng and Xiangxiang Chu and Kun Zhan},
+  journal={arXiv preprint arXiv:2604.16044},
+  year={2026}
 }
 ```
 
