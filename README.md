@@ -132,6 +132,6 @@ If you use this in research, please cite the original DCW paper:
 
 - [AMAP-ML](https://github.com/AMAP-ML) and NVIDIA for the DCW technique
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) for the amazing node framework
-- [PyTorch Wavelets](https://github.com/fbcorlib/pytorch_wavelets) for wavelet implementations
+- [PyTorch Wavelets](https://github.com/fbcotter/pytorch_wavelets) for wavelet implementations
 - [Claude.ai](https://claude.ai) for helping me write this
 ---
