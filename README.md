@@ -4,14 +4,7 @@ A ComfyUI node implementation of the **Dynamic Consistency Weighting (DCW)** tec
 
 ## What is DCW?
 
-DCW is a post-processing technique that improves the quality of diffusion model outputs by leveraging wavelet-domain analysis. It allows you to generate images in **as few as 8 steps** without requiring model distillation or retraining.
-
-### Key Features
-- **Ultra-fast generation**: Generate images in 8 steps instead of the typical 20-50
-- **No distillation needed**: Works with standard full models (tested with Anima, and others)
-- **Wavelet-based refinement**: Uses discrete wavelet transform (DWT) to intelligently blend low and high-frequency components
-- **Flexible control**: Adjustable strength parameter to balance generation speed vs quality
-- **Multi-format support**: Works with both image (4D) and video (5D) latents
+DCW is a post-processing technique that improves the quality of diffusion model without requiring retraining by leveraging wavelet-domain analysis.
 
 ## Quick Start
 
@@ -33,24 +26,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-1. Load your favorite model (e.g., Anima)
+1. Load your favorite model
 2. Add the **"Apply DCW (Wavelet Patch)"** node to your workflow
 3. Connect your model to the node's input
-4. Set parameters:
-   - **Strength**: `0.3` (recommended for 8-step generation)
-   - **Wavelet**: `haar` (default, good balance of speed and quality)
-5. Use the patched model with very low step counts (8-15 steps)
-
-### Recommended Settings
-
-For **Anima** and similar models:
-```
-Steps: 8
-Sampler: DPM++ 2M
-Strength: 0.3
-Wavelet: haar
-CFG Scale: 4.0
-```
 
 ## How It Works
 
