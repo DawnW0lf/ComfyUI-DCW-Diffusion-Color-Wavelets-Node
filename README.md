@@ -20,7 +20,7 @@ DCW is a post-processing technique that improves the quality of diffusion model 
 1. Clone this repository into your ComfyUI `custom_nodes` folder:
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/DawnW0lf/https://github.com/DawnW0lf/ComfyUI-DCW-Diffusion-Color-Wavelets-Node.git
+git clone https://github.com/DawnW0lf/ComfyUI-DCW-Diffusion-Color-Wavelets-Node.git
 ```
 
 2. Install dependencies:
